@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.350c89a8d06431c89209943b3882c89f.js"></script>
+    <script type="text/javascript" src="https://codesandbox.io/static/js/banner.d9cb10a38.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Login Form</title>
+  </head>
+  <body style="background-color: rgb(0, 0, 0)">
+    <h1>Homework7: Login validation</h1>
+    <hr />
+    <form class="login-form">
+      <label for="Username">Username:</label>
+      <input type="text" id="Username" />
+      <label id="userlabel" for="Username"></label>
+
+      <label for="Password">Password:</label>
+      <input type="password" id="Password" />
+      <label id="passlabel" for="Password"></label>
+
+      <select name="role" id="role">
+        <option disabled selected>Select Role</option>
+        <option value="buyer">Buyer</option>
+        <option value="seller">Seller</option>
+        <option value="visitor">Visitor</option>
+      </select>
+      <label id="selectlabel" for="role"></label>
+
+      <input type="submit" value="Login" />
+    </form>
+    <script src="main.js"></script>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.eeb14a97b.js"></script>
+  </body>
+</html>

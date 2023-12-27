@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 15;
+    padding: 0;
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  .login-form {
+    width: 75%;
+    background: rgb(229, 192, 221);
+    margin: auto;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 15px;
+  }
+  
+  .login-form > input {
+    font-size: 30px;
+    border-radius: 15px;
+  }
